@@ -1,0 +1,355 @@
+.container{
+    max-width: 138rem;
+    margin: 0 auto;
+}
+
+.carmusc{
+    background-image: url('../img/HeaderCar.png');
+    height: 80rem;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.nav .ul ul{
+    display: flex;
+    gap: 4rem;
+    margin-left: 10rem;
+}
+
+.nav .ul ul li a{
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+}
+
+.nav .img{
+    width: 5rem;
+    height: 2.5rem;
+    margin-right: 13rem;
+}
+
+.carmusc .carmusc__all{
+    margin-top: 18rem;
+}
+
+.carmusc .carmusc__all h1{
+    color: var(--color-red);
+    font-family: sans-serif;
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+
+}
+
+.carmusc .carmusc__all .img{
+    max-width: 200.355px;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.carmusc .carmusc__all .bodytext{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    max-width: 49rem;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+.carmusc .carmusc__all .imgtext{
+    display: flex;
+    position: relative;
+}
+
+.carmusc .carmusc__all .imgtext .box{
+    width: 11rem;
+    height: 6.1rem;
+    background-color: var(--color-red);
+    position: absolute;
+    top: 6rem;
+    left: 56rem;
+}
+
+.carmusc .carmusc__all .bodytext{
+    font-family: sans-serif;
+}
+
+
+.carmusc .box__all{
+    display: flex;
+    gap: 30rem;
+}
+
+.carmusc .box__all .box {
+    width: 25rem;
+    margin-top: 10rem;
+}
+
+.carmusc .box__all .box h4{
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+.carmusc .box__all .box .bodytextt{
+    text-transform: uppercase;
+    width: 26.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.4rem;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+    color: var(--color-red);
+}
+
+
+
+.nasi .nasi__all{
+    margin-top: 20rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.nasi .nasi__all h2{
+    width: 55rem;
+    font-size: 3rem;
+    font-family: 'pop';
+    text-transform: uppercase;
+}
+
+.nasi .nasi__all .img{
+    width: 146.355px;
+    height: 14.142px;
+    margin-top: 4rem;
+}
+
+.nasi .nasi__all .bodytext{
+    width: 52.6rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-top: 4rem;
+}
+
+.nasi .nasi__all .nesi__right .box__all .box{
+    width: 33rem;
+    height: 17.7rem;
+    border: 1px solid var(--border, #898989);
+}
+
+.nasi .nasi__all .nesi__right .box__all .box h2{
+    display: inline-block;
+    width: 3rem;
+    color: var(--color-red);
+    margin-top: 2.5rem;
+    margin-left: 14.5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.nasi .nasi__all .nesi__right .box__all .box .bodytext{
+    width: 31rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.nasi .nasi__all .nesi__right{
+    display: flex;
+}
+
+.nasi .nasi__all .nesi__right .boxx__alll{
+    margin-top: 5rem;
+}
+
+.carfoto .carfoto__all{
+    margin-top: 18rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 7rem;
+    
+}
+
+.carfoto .carfoto__all .carbox .img{
+    width: 30rem;
+    height: 27rem;
+    margin-left: 7rem;
+}
+
+
+
+.carfoto .carfoto__all .carbox .bodytext{
+    width: 27rem;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-left: 8.5rem;
+    background-color: var(--color-red);
+}
+
+.mat .mat__all{
+    display: flex;
+    margin-top: 19.4rem;
+    gap: 13.4rem;
+    margin-left: 11rem;
+}
+
+.mat .mat__all .mat__left .text__all{
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+
+.mat .mat__all .mat__left .text__all .bodytext{
+    width: 42.6rem;
+    height: 4.3rem;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    letter-spacing: 1.6px;
+}
+
+
+
+.mat .mat__all .mat__left .bodytextt{
+    margin-top: 4.3rem;
+    width: 52.6rem;
+    font-size: 1.2rem;
+}
+
+.mat .mat__all .mat__left .img{
+    width: 146px;
+    height: 14px;
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+}
+
+.mat .mat__all .mat__right{
+    margin-top: 7.5rem;
+}
+
+.mat .mat__all .mat__right .img{
+    width: 55rem;
+}
+
+.mat .mat__all .mat__right .bodytext{
+    width: 50rem;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    color: var(--color-red);
+}
+
+.mat .mat__center .bodytext{
+    width: 63.6rem;
+    font-size: 5.2rem;
+    font-family: sans-serif;
+    margin-top: 19.1rem;
+    margin-left: 40%;
+}
+
+.mat .imgg{
+    width: 146.355px;
+    height: 14.142px;
+    margin-top: 7rem;
+    margin-left: 46%;
+}
+
+.mat .atag{
+    display: flex;
+    gap: 10rem;
+    margin-top: 7rem;
+    margin-left: 37%;
+}
+
+.mat .atag .a1 a{
+    display: inline-flex;
+    padding: 20px 40px 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.mat .atag a{
+    display: inline-flex;
+    padding: 20px 40px 10px 40px;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.grid .grid__all{
+    display: flex;
+    margin-top: 9rem;
+    gap: 2.4rem;
+    margin-left: 4rem;
+}
+
+.grid .grid__all .grid__box{
+    width: 306px;
+    height: 428px;
+    border: 1px solid var(--border, #898989);
+}
+
+.grid .grid__all .grid__box .imggg h2{
+    width: 7rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.grid .grid__all .grid__box h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2.7rem;
+}
+
+.grid .grid__all .grid__box .bodytextt{
+    width: 24rem;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+.grid .grid__all .grid__box .bodytext{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    color: var(--color-red);
+}
+
+.foto .foto__all{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 19rem;
+}
+
+.foto .foto__all .img{
+    width: 25.3rem;
+    height: 25rem;
+}
